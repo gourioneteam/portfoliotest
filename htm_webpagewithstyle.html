@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Einstein - The Revolutionary Physicist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #1a237e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .hero-image {
+            background-color: #283593;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #283593;
+            padding: 15px 0;
+            top: 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1a237e;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin: 40px 0;
+        }
+        .quote {
+            font-style: italic;
+            font-size: 1.2em;
+            color: #666;
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-left: 5px solid #1a237e;
+            margin: 20px 0;
+        }
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #1a237e;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+        .achievements {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .achievement-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .form-section {
+            margin: 40px 0;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        form div {
+            margin-bottom: 15px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #1a237e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        form button:hover {
+            background-color: #283593;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Albert Einstein</h1>
+        <p>The Father of Modern Physics</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#early-life">Early Life</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#legacy">Legacy</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-image">
+        <figure>
+            <img src="https://th.bing.com/th/id/OIP.RFngzD87E868bKFJICsL7gAAAA?rs=1&pid=ImgDetMain" alt="Albert Einstein Portrait">
+            <figcaption>Albert Einstein (1879-1955)</figcaption>
+        </figure>
+    </div>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Einstein</h2>
+            <p>Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics. His work is also known for its influence on the philosophy of science.</p>
+            <div class="quote">
+                "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."
+            </div>
+        </section>
+
+        <section id="early-life">
+            <h2>Early Life</h2>
+            <article>
+                <h3>Childhood and Education</h3>
+                <p>Born on March 14, 1879, in Ulm, Germany, Einstein showed a brilliant curiosity about nature and science from an early age. Despite early speech difficulties, he went on to become one of history's most influential scientists.</p>
+                <figure>
+                    <img src="https://th.bing.com/th/id/OIP.j-Go7p-9zhahNNwp_42fmgHaKz?w=151&h=219&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Young Einstein">
+                    <figcaption>Einstein as a young student in Switzerland</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="career">
+            <h2>Career Timeline</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Achievement/Position</th>
+                        <th>Location</th>
+                        <th>Significance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1902-1909</td>
+                        <td>Patent Office Examiner</td>
+                        <td>Bern, Switzerland</td>
+                        <td>Developed special relativity theory</td>
+                    </tr>
+                    <tr>
+                        <td>1911-1912</td>
+                        <td>Professor of Physics</td>
+                        <td>Prague</td>
+                        <td>Began work on general relativity</td>
+                    </tr>
+                    <tr>
+                        <td>1914-1933</td>
+                        <td>Director of Kaiser Wilhelm Institute</td>
+                        <td>Berlin</td>
+                        <td>Published general relativity theory</td>
+                    </tr>
+                    <tr>
+                        <td>1933-1955</td>
+                        <td>Professor at Institute for Advanced Study</td>
+                        <td>Princeton, USA</td>
+                        <td>Continued unified field theory research</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="achievements">
+            <h2>Major Achievements</h2>
+            <div class="achievements">
+                <article class="achievement-card">
+                    <h3>Nobel Prize in Physics</h3>
+                    <p>Awarded in 1921 for his services to Theoretical Physics and discovery of the photoelectric effect.</p>
+                </article>
+                <article class="achievement-card">
+                    <h3>Theory of Relativity</h3>
+                    <p>Developed the special and general theories of relativity, revolutionizing our understanding of space, time, and gravity.</p>
+                </article>
+                <article class="achievement-card">
+                    <h3>Mass-Energy Equivalence</h3>
+                    <p>Formulated the world-famous equation E = mc², showing the relationship between mass and energy.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="photo-gallery">
+                <figure>
+                    <img src="https://th.bing.com/th/id/OIP.nKOvKklIBX4tDj3x7IU1PwHaF3?w=238&h=189&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Einstein at his desk">
+                    <figcaption>Einstein working at his desk in Princeton</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://th.bing.com/th/id/OIP.zaqykV33XFQx6mnGQKb7qwHaF4?w=212&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Einstein with colleagues">
+                    <figcaption>Einstein with fellow physicists at the Solvay Conference</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="links">
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/" target="_blank">Nobel Prize Biography of Albert Einstein</a></li>
+                <li><a href="https://www.britannica.com/biography/Albert-Einstein" target="gouri">Britannica - Albert Einstein</a></li>
+            </ul>
+        </section>
+
+        <section id="contactus">
+            <h2>Contact Us</h2>
+            <form action="" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="legacy">
+            <h2>Legacy</h2>
+            <p>Einstein's scientific breakthroughs fundamentally changed our understanding of the universe. His theories and discoveries have led to numerous practical applications, from nuclear power to GPS systems. His name has become synonymous with genius.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Scientific Biography Series</p>
+        <p>All images are for educational purposes only</p>
+    </footer>
+</body>
+</html>
+<!-- The &copy; symbol in HTML represents the copyright symbol (©). It's a special HTML character entity that displays the copyright symbol without requiring you to use the actual symbol itself, which improves compatibility across different browsers and systems.
+&copy; → © (Copyright)
+&reg; → ® (Registered Trademark)
+&trade; → ™ (Trademark)
+&euro; → € (Euro)
+&pound; → £ (British Pound)
+&yen; → ¥ (Japanese Yen)
+&cent; → ¢ (Cent) 
+
+The for attribute in an HTML <label> tag links a label to a form element, such as an <input> field. When the for attribute is used, clicking on the label will set focus to the associated form element, improving accessibility and usability.
+
+How It Works:
+The value of the for attribute should match the id attribute of the form element it is labeling.
+-->
